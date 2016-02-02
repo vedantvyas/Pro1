@@ -1,0 +1,51 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main.master" AutoEventWireup="true" CodeFile="order2.aspx.cs" Inherits="order2" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<div >
+<p style="margin: 5px 800px 5px 200px; border-style: dashed; border-width: thin; font-family: Calibri; font-size: x-large; color: #333399; text-decoration: blink; text-align: center; background-color: #FFFF99; font-weight: bold; width: 200px;" 
+         align="center">Products</p>
+<table >
+  <tr >
+    <td style="border: thin dashed #CC0000;"  height="150px" width="120px"> <img src="web/m7.jpg" alt="" height="100px"  width="100px" /></td>
+    <td></td>
+    <td style="border: thin dashed #CC0000; " height="150px" width="120px"> <img src="web/m9.jpg" alt="" height="100px" align="middle" width="100px"/></td>
+    <td></td>
+    <td style="border: thin dashed #CC0000; " height="150px" width="120px"> <img src="web/m10.jpg" alt="" height="100px" align="middle" width="100px"/></td>
+    <td></td>
+    <td style="border: thin dashed #CC0000; " height="150px" width="120px"> <img src="web/m11.jpg" alt="" height="100px" align="middle" width="100px"/></td> 
+  </tr>
+    <tr>
+    <td colspan="7"></td>
+  </tr>
+
+    <tr>
+    <td style="border: thin dashed #CC0000;"  height="150px" width="120px"> <img src="web/m12.jpg" alt=""  height="100px" align="middle" width="100px" /></td>
+    <td></td>
+    <td style="border: thin dashed #CC0000;"  height="150px" width="120px"> <img src="web/m13.jpg" alt="" height="100px" align="middle" width="100px"/></td>
+    <td></td>
+    <td style="border: thin dashed #CC0000;"  height="150px" width="120px"> <img src="web/m14.jpg" alt="" height="100px" align="middle" width="100px"/></td>
+    <td></td>
+    <td style="border: thin dashed #CC0000;" height="150px" width="120px"> <img src="web/m19.jpg" alt="" height="100px" align="middle" width="100px"/></td>
+  </tr>
+    <tr>
+    <td colspan="7"></td>
+  </tr>
+  <tr>
+    <td style="border: thin dashed #CC0000;"  height="150px" width="120px"> <img src="web/m20.jpeg" alt="" height="100px" align="middle" width="100px"/></td>
+    <td></td>
+    <td style="border: thin dashed #CC0000;" height="150px" width="120px"> <img src="web/m24.jpg" alt="" height="100px" align="middle" width="100px"/></td>
+    <td></td>
+    <td style="border: thin dashed #CC0000;"  height="150px" width="120px"> <img src="web/m22.jpg" alt="" height="100px" align="middle" width="100px"/></td>
+    <td></td>
+    <td style="border: thin dashed #CC0000;"  height="150px" width="120px"> <img src="web/m23.jpg" alt="" height="100px" align="middle" width="100px"/></td>
+  </tr>
+    <tr>
+    <td colspan="7"></td>
+  </tr>
+</table>
+<p align="right" ><a href="#"><img src="web/next.jpg" alt=""  height="35" width="100" /></a><a href="Order.aspx"><img src="web/pre.jpg" alt=""  height="40" width="100"  /></a></p>
+</div>
+</asp:Content>
+

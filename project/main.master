@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="main.master.cs" Inherits="main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>AMVED Medical Store</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+	<div class="background">
+		<div class="page">
+			<a href="Default.aspx"><img src="images/logo.gif" alt=""/></a>
+            <div  
+                 
+                style="font-size: large; color: #FF5050; font-weight: bold; width: 100%; text-align: right;">24 X 7 | Mobile No: 222000888</div>
+            <form id="form1" runat="server">
+                      &nbsp;
+			<div class="sidebar">
+				<ul>
+					<li>
+						<a href="Default.aspx">Home</a>
+					</li>
+					<li>
+						<a href="aboutus.aspx">About Us</a>
+					</li>
+					<li>
+						<a href="Services.aspx">Services</a>
+					</li>
+					<li>
+						<a href="Order.aspx">Order</a>
+					</li>
+					<li>
+						<a href="healthy_tips.aspx">Healthy tips</a>
+					</li>
+					<li>
+						<a href="contact.aspx">Contact Us</a>
+					</li>
+				</ul>
+				<div class="first">
+					<div>
+						<h3> Log In</h3>						
+						<table>
+						<tr>
+            <td style="width: 100px; height: 21px">
+                ID</td>
+            <td style="width: 93px; height: 21px">
+                <asp:TextBox ID="username" runat="server" Width="107px"></asp:TextBox></td>
+           <td style="width: 100px; height: 21px"></td>
+               
+        </tr>
+    <tr><td colspan="2";></td><td></td></tr>
+         <tr>
+            <td style="width: 100px;height: 21px">
+                Password</td>
+            <td style="width: 93px;height: 21px" align="left">
+                <asp:TextBox ID="pass" runat="server" TextMode="Password" Width="107px"></asp:TextBox></td>
+            <td style="width: 100px"></td>
+                
+        </tr>
+        <tr><td colspan="2" ><asp:Label ID="Label1" runat="server" Font-Size="Smaller" ForeColor="#CC0000"></asp:Label></td> 
+            
+            <td></td></tr>
+         <tr >
+            <td style="width: 100px; text-align:center; padding-left: 40px;"
+                 colspan="2" >               
+                <asp:Button ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" />
+             </td>
+            
+            <td></td>
+        </tr>
+        
+         </table>
+					</div>
+				</div>
+				<div >
+					<div >
+						<h3>Mission</h3>
+						
+						<img src="web/med.jpg" alt=""/>
+						<p>
+							Our mission is to become the gold standard in the application of discreet, individualized, and restorative medical care.
+						</p><br />
+                        <p>
+							Our goal is to facilitate healthy lifestyle choices – physical, emotional, and social.
+						</p><br />
+                        <p>As a primary means to prevent disease, and speed recovery for those who are experiencing health issues, including addiction.</p>
+					</div>
+				</div>
+			</div>
+            </form>
+			<div class="body">
+				<div class="home">
+					<div class="featured">
+						<img src="web/banner.jpg" alt=""/>
+						<div>
+							<p style="font-size: medium" align="center">
+								Online Medical Store is one stop shop for all your medical needs. We make online medicine purchase easier and comfortable.
+							</p>
+						</div>
+					</div>
+					<div>
+						<div>
+							<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+						</div>
+						<%--<div>
+							this is for designed btn
+							<span><a href="#">Know More</a></span>
+						</div>--%>
+					</div>
+				</div>
+			</div> <br />           
+				<ul style="color: #339933; text-align: center;">
+					<li>
+						<a href="Default.aspx">Home</a>&nbsp;&nbsp;&nbsp; <a href="aboutus.aspx">About Us</a>&nbsp;&nbsp;&nbsp;
+                        <a href="Services.aspx">Services</a>&nbsp;&nbsp;&nbsp; <a href="enquiry.aspx">Enquiry</a>&nbsp;&nbsp;&nbsp;
+                        <a href="healthy_tips.aspx">Healthy tips</a>&nbsp;&nbsp;&nbsp; <a href="contact.aspx">Contact Us</a>
+					</li>
+                    
+						<p align="center" style="padding: 10px; background-color: #000000; color: #FFFFFF;">
+							&copy 2015 | Website Designed & Developed by AMV WEB Solutions</p>
+					                    					
+				</ul>
+                <div>
+        
+    </div>
+</body> 
+</html>
